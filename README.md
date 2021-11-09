@@ -21,5 +21,5 @@ The previous one but uppercase.
 ```GenerateRandomPassword(lenght)```
 Generates a cool little password featuring lowercase and uppercase letters, numbers and some symbols!
 
-#Hope you enjoyed
+# Hope you enjoyed
 This is my first python library AND my first repository :D
