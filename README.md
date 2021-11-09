@@ -3,6 +3,13 @@ A small library for python that generates random strings.
 You can use this small library for speeding up your work, in case you need to generate some random strings.
 (even tho you can just create your own)
 
+
+# Install
+
+just click download zip and extract it
+
+# How it works
+
 you can import it with ``` import RandomString ``` and the commands are these:
 
 ``` GenerateRandomString(lenght) ```
