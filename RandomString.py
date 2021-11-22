@@ -1,26 +1,18 @@
-# V 1.0 Release lol
+# V 1.1 Code compacted, now it works (weeeee)
 import random
 latin_l = "abcdefghijklmnopqrstuvwxyz"
 latin_u = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 num = "1234567890"
 symb4password = "@#!£$%&"
+
+
 def GenerateRandomString(lenght):
-    for i in range(lenght):
-        RandomString = random.choice(latin_l + latin_u)
-        print(RandomString, end="")
+    return ''.join(random.choice(latin_l + latin_u) for i in range(lenght))
 def GenerateRandomNumber(lenght):
-    for i in range(lenght):
-        RandomString = random.choice(num)
-        print(RandomString, end="")
+    return ''.join(random.choice(num) for i in range(lenght))
 def GenerateRandomLowercaseString(lenght):
-    for i in range(lenght):
-        RandomString = random.choice(latin_l)
-        print(RandomString, end="")
+    return ''.join(random.choice(latin_l) for i in range(lenght))
 def GenerateRandomUppercaseString(lenght):
-    for i in range(lenght):
-        RandomString = random.choice(latin_u)
-        print(RandomString, end="")
+    return ''.join(random.choice(latin_u) for i in range(lenght))
 def GenerateRandomPassword(lenght):
-    for i in range(lenght):
-        RandomString = random.choice(latin_l + latin_u + num + symb4password)
-        print(RandomString, end="")
+    return ''.join(random.choice(latin_l + latin_u + num + symb4password) for i in range(lenght))
