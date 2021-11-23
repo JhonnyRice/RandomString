@@ -1,6 +1,5 @@
 # RandomString
 A small library for python that generates random strings.
-[EDIT: Very broken apparently, so kinda useless]
 You can use this small library for speeding up your work, in case you need to generate some random strings.
 (even tho you can just create your own)
 
