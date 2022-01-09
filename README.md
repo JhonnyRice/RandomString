@@ -13,7 +13,7 @@ just click download zip, extract it & after that you can easly import it with ``
 To use the library, you need to assign one of the functions listed below inside a variable, and then reference the variable, like this:
 ```py
 #assign to the variable a function
-variable = GenerateRandomString(10)
+variable = RandomString.GenerateRandomString(10)
 
 #use the function trough the variable
 print(variable)
